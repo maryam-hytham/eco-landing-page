@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoFriendly - Your Green Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="all">
+      <img src="images/logo.png" alt="EcoFriendly Logo" />
+      <nav class="navbar">
+        <div>Home</div>
+        <div>Features</div>
+        <div>Contact</div>
+        <div>Blog</div>
+      </nav>
+    </section>
+    <!--Hero section-->
+    <header class="hero">
+      <h1 class="hero__title">Track Your Carbon Footprint</h1>
+      <p class="hero__description">
+        Helping you live a <span class="hero__highlight">greener, sustainable life</span> with simple eco-friendly steps
+      </p>
+    </header>
+    <div class="container">
+      <div class="features">
+        <!--first feature section-->
+        <section>
+          <div class="feature__container">
+            <div class="feature__item">
+              <h2 class="feature__title">Real-Time Impact Tracking</h2>
+              <p class="feature__description">
+                Monitor your daily carbon emissions and get instant insights
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--second feature section-->
+        <section>
+          <div class="feature__container">
+            <div class="feature__item">
+              <h2 class="feature__title">Personalized Green Tips</h2>
+              <p class="feature__description">
+                Receive customized suggestions to reduce your environmental footprint
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--third feature section-->
+        <section>
+          <div class="feature__container">
+            <div class="feature__item">
+              <h2 class="feature__title feature__title--selected">
+                Community Challenges
+              </h2>
+              <p class="feature__description">
+                Join local and global eco challenges to make a bigger impact together
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="feature__img"></div>
+    </div>
+    <!--call to action section-->
+    <section class="cta">
+      <h3 class="cta__title">Join Us in Making a Difference</h3>
+      <p class="cta__description">
+        Sign up today and start your journey towards a sustainable lifestyle with EcoFriendly’s easy-to-use tools and community support.
+      </p>
+      <button class="cta__btn">Get Started</button>
+    </section>
+    <!--video section-->
+    <section class="video">
+      <h3 class="video__title">Watch How EcoFriendly Works</h3>
+      <p class="video__description">
+        See our app in action and learn how simple changes can help save the planet.
+      </p>
+      <div class="video__controls">
+        <button class="video__btn"><i class="fa fa-book"></i>Learn More</button>
+        <button class="video__btn">
+          <i class="fa fa-play-circle"></i>Watch Video
+        </button>
+      </div>
+      <div class="video__container"></div>
+    </section>
+    <!--programs section-->
+    <section class="programs">
+      <h2 class="programs__title">
+        Explore Our Eco-Friendly Programs and Resources
+      </h2>
+      <div class="programs__cards">
+        <div class="programs__card">
+          <img class="p__img" src="images/program1.jpg" alt="Carbon Footprint Workshop" />
+          <h2>Carbon Footprint Workshop</h2>
+          <p>Learn to calculate and reduce your personal emissions</p>
+          <button>Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img class="p__img" src="images/program2.jpg" alt="Sustainable Living Tips" />
+          <h2>Sustainable Living Tips</h2>
+          <p>Discover daily habits that promote green living</p>
+          <button>Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img class="p__img" src="images/program3.jpg" alt="Community Cleanups" />
+          <h2>Community Cleanups</h2>
+          <p>Join local efforts to protect your environment</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!--form section-->
+    <section class="form">
+      <div class="form__pic"></div>
+      <div class="form__infos">
+        <h2 class="form__title">Sign Up for Our Newsletter</h2>
+        <p class="form__description">
+          Stay updated with the latest eco-friendly tips, programs, and events.
+        </p>
+        <h3 class="list__title">Your Interests:</h3>
+        <ul class="form__list">
+          <li class="list__item">
+            <i class="fa fa-arrow-right"></i> Sustainable Living
+          </li>
+          <li class="list__item">
+            <i class="fa fa-arrow-right"></i> Environmental News
+          </li>
+          <li class="list__item">
+            <i class="fa fa-arrow-right"></i> Community Events
+          </li>
+        </ul>
+        <form class="form__fields">
+          <label for="username">Name:</label>
+          <input
+            id="username"
+            type="text"
+            class="form__input"
+            placeholder="Enter your name"
+          />
+          <label for="select">Select Interest:</label>
+          <select id="select" class="form__select">
+            <option value="">Choose an Interest...</option>
+            <option value="sustainable">Sustainable Living</option>
+            <option value="news">Environmental News</option>
+            <option value="events">Community Events</option>
+          </select>
+          <button class="form__submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!--footer section-->
+    <footer class="footer">
+      <div class="footer__rows">
+        <div class="footer__row footer__row--left">
+          <img src="images/logo.png" alt="EcoFriendly Logo" />
+          <p>
+            Join EcoFriendly in making sustainable choices for a healthier planet.
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="footer__row">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>Features</li>
+            <li>Programs</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer__row">
+          <h4>Resources</h4>
+          <ul>
+            <li>Help Center</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+          </ul>
+        </div>
+        <div class="footer__row">
+          <h4>Connect with us</h4>
+          <ul class="brands">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="rights">© 2025 EcoFriendly. All rights reserved.</div>
+  </body>
+</html>
